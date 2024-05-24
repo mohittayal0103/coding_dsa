@@ -1,3 +1,7 @@
+// Problem Link
+// https://leetcode.com/problems/merge-strings-alternately/description/?envType=study-plan-v2&envId=leetcode-75
+
+
 /**
  * @param {string} word1
  * @param {string} word2
