@@ -47,3 +47,29 @@ var backspaceCompare = function(s, t) {
         return false;
     }
 };
+
+
+//--------------------------------------------------------------
+
+var backspaceCompare = function(s, t) {
+    const stackS = processString(s);
+    const stackT = processString(t);
+
+    if(stackS == stackT)
+        return true;
+    else
+        return false;
+}
+
+var processString = function(x){
+    const stack = [];
+
+    for(let i = 0; i < x.length; i++){
+        if(x[i] == "#")
+            stack.pop();
+        else
+            stack.push(x[i]);
+    }
+
+    return stack.join();
+}
