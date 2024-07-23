@@ -1,0 +1,55 @@
+{
+  "emplist": [
+    {
+      "name": "Mohit Tayal",
+      "city": "Bangalore",
+      "salary": "35000",
+      "skill": "HTML, CSS, Javascript",
+      "id": "1"
+    },
+    {
+      "id": "2",
+      "name": "Mihir Bagga",
+      "city": "Bangalore",
+      "salary": "50000",
+      "skill": "HTML, CSS, Javascript, React, Node"
+    },
+    {
+      "name": "Mrinal Garg",
+      "city": "Ludhiana",
+      "salary": "45000",
+      "skill": "Service Now, My SQL",
+      "id": "6446"
+    },
+    {
+      "name": "Manan Chaudhary",
+      "city": "Gurugram",
+      "salary": "65000",
+      "skill": "Data Engineer, Data Science",
+      "id": "d4fa"
+    },
+    {
+      "id": "d4fa",
+      "name": "Mahima Thakur",
+      "city": "Panchkula",
+      "salary": "80000",
+      "skill": "Informatica, Power BI, My SQL"
+    }
+  ],
+  "productlist": [
+    {
+      "id": "5a35",
+      "pname": "iball Speaker",
+      "price": "1200",
+      "qty": "12",
+      "seller": "iBall"
+    },
+    {
+      "id": "5acc",
+      "pname": "Dell Mouse",
+      "price": "800",
+      "qty": "15",
+      "seller": "Dell"
+    }
+  ]
+}
