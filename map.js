@@ -9,7 +9,7 @@ map.set('c',3)                                  //to add the key value in map we
 map.delete('b')                                 // to delete the value we use delete method
 console.log(map.has('a'));                      //to check whether contain following data we use has method
 console.log(map.size);                          //to check the size of map we use size method
-map.clear();                                    //to delete all value we use clear method
+// map.clear();                                    //to delete all value we use clear method
                                                 
 for(const [key,value] of map){
     console.log(`${key}: ${value}`);

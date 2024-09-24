@@ -68,19 +68,16 @@ function sayMyName() {
 sayMyName.call(person);
 
 //3rd New Binding
-
 function Person(name) {
-  //this = {};   -> Here tis will work as object and person will work as constructor function
+  //this = {};   -> Here this will work as object and person will work as constructor function
   this.name = name;
 }
-
 const p1 = new Person("Mohit");
 const p2 = new Person("Tayal");
 
 console.log(p1.name, p2.name);
 
 //4th Default Binding
-
 sayMyName(); // -> my name is undefined
 
 globalThis.name = "Mohit Tayal";
@@ -91,7 +88,7 @@ sayMyName(); // -> my name is mohit tayal ->  Default Binding look for global sc
 
 //Prototype
 
-function Person(fName, lName) {
+function Person(fName, lName) {   //constructor function
   this.firstName = fName;
   this.lastName = lName;
 }
@@ -125,6 +122,7 @@ const batman = new superHero("Mohit", "Tayal");
 superHero.prototype.constructor = superHero;
 
 console.log(batman.getFullName()); //-> Mohit Tayal
+// console.log(fightCrime());
 
 //--------------------------------------------------------------------------------------------
 // Class -> class keyword is introduced in 2015. It is same as prototype with better syntax in javascript
